@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+img{
+    max-width: 100%;
+}
+
+.card_box{
+    /*width: 100px;
+    height: 100px;
+    */background-color: hsl(0, 0%, 100%);
+    padding:15px;
+    margin: 8% 40% 0% 40%;
+    border-radius: 20px;
+}
+.card_box img{
+    width:300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.card_box .bolden{
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+}
+.card_box .paragraph{
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 15px;
+}
